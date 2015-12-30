@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 .wraptocenter {
     margin: 10 0 0 0 auto;
     display: table-cell;
@@ -10,20 +13,19 @@
     height: auto;
 }
 
-#nav {
+.nav {
     text-align: right;
     float: right;
     width: 100%;
-    list-style: none;
     padding-bottom: 100px;
     
 }
 
-#nav li {
+.nav li {
     display: inline;
 }
 
-#nav li a {
+.nav li a {
     padding: 5px 8px;
     font-family: "Arial", sans-serif;
     font-size: 13px;
@@ -39,5 +41,45 @@
     padding: 20px 2px 0px 2px;
 }
 
-.button {
+footer {
+    position: absolute;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    min-width: 100%;
+    line-height: 10px;
+    background: #f2f2f2;
+    
+}
+    
+
+.leftfooter {
+    float: left;
+}
+
+.leftfooter li {
+    display: inline;
+    padding: 0 15px 0 5px;
+}
+
+.leftfooter li a{
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.rightfooter {
+    float:right;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.rightfooter li {
+    display: inline;
+    padding: 0 10px 0 5px;
+}
+
+.rightfooter li a{
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
 }
